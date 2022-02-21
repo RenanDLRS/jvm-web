@@ -4,14 +4,16 @@ export default createGlobalStyle`
  * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   html, body, #root {
     height: 100%;
     scroll-behavior: smooth;
     font-size: 16px;
-    /* font-size: 1.4rem; */
-    --lato-font-family: 'Lato', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+
     input:focus{
       outline: none;
     }
@@ -23,8 +25,5 @@ export default createGlobalStyle`
       opacity: 0.5;
       cursor: not-allowed;
     }
-    font-family: var(--lato-font-family);
-   
-	
   }
 `;
